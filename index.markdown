@@ -1,7 +1,7 @@
 ---
 layout: page
 title: gejigeji
-tagline: Tech Blog
+tagline: Blog
 ---
 {% include JB/setup %}
 
