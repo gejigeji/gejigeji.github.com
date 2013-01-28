@@ -19,6 +19,6 @@ tags : [python, karrigell, web.py]
 
 * 根据<笨方法学python>里的设计，和关于语义的浅显内容
 
-##不足
+##不足 
 
 * 对数据库的操作还不会
