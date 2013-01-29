@@ -1,12 +1,12 @@
 /* Override some defaults */
 html, body {
-  background-color: #3CB371;
+  background-color: #FFFFF0;
 }
 .navbar {
   margin-bottom: 0;
 }
 .container > footer {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
@@ -14,9 +14,9 @@ html, body {
 
 /* The white background content wrapper */
 .content {
-  background-color: #87CEFA;
-  padding: 10px;
-  margin: 0 -10px; /* negative indent the amount of the padding to maintain the grid system */
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
