@@ -5,6 +5,10 @@ tags : [python, karrigell, web.py]
 ---
 {%include JB/setup %}
 
+实际上干了很多乱七八糟的事，也花了不少时间  
+很多比较低级  
+而且很多忘记了  
+
 ##python科学计算
 
 * 学习了一些，现在有忘记得差不多了
