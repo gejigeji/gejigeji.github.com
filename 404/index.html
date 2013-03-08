@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Button Magic</title>
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		
+		This is a test.</br><script src="jquery-1.8.0.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="douban-math.user.js"></script>
+	</head>
+	<body>
+        <div class="vanish"></div>
+        <div class="vanish"></div>
+        <div class="vanish"></div>
+        <div class="vanish"></div>
+	<br/><button>Click Me!</button>
+	</br>
+	For any prime p, $$(p-1)! \equiv -1 \mod p.$$
+	</br>
+Conservations laws:
+\begin{alignat}{2}
+(P^a+Q^a)(P_a+Q_a)&=(P'^a+Q'^a)(P'_a+Q'_a) & \qquad &\text{Energy Conservation} \\
+P^a+Q^a&=P'^a+Q'^a & & \text{Momentum Conservation}
+\end{alignat}
+
+For massless photons, $P^a P_a=0$, while for particles with mass $m$, $Q^a Q_a=-m^2$. Define $\beta=\sqrt{v^av_a}$ and $\mu=\frac{v^a e_a}{\beta}$, in which $v^a$ is the three velocity and $e^a=\frac{v^a}{\beta}$ is the direction vector.
+
+Then the conservation equations become
+\begin{eqnarray}
+&Q^aP_a=Q'^aP'_a& \\
+&\displaystyle\frac{E'}{E}=\frac{1-\beta\mu}{1-\beta\mu'+(1-\cos\theta)E/\gamma m}=\frac{1-\beta\cos\phi}{1-\beta\cos{\phi'}+(1-\cos\theta)E/\gamma m}&
+\end{eqnarray}
+
+Next step is to simplify this equation using the electron rest frame.
+
+At electron rest frame, $\beta=0$ (because $v^a=0$ for electron), $\gamma=\frac1{1-\beta^2}=1$. Then we have
+\begin{equation}
+\frac{E'}{E}=\frac{1}{1+(1-\cos\theta)E/m}
+\end{equation}
+
+This equation shows us $E'=E$ when $\cos\theta=1$ which means the photon do not change its momentum direction or $E\ll m$ which means the energy of photon is much less than the mass of the electron.
+
+We introduce Compton wavelength by inserting $E=h\nu=h/\lambda$ into $E'/E$ and calculating the following fraction at electron rest frame,
+\begin{equation}
+\frac{\lambda'}{\lambda}-1=\frac{h}{\lambda}/\frac{h}{\lambda'}-1=\frac E m(1-\cos\theta)=\frac{h}{m\lambda}(1-\cos\theta)
+\end{equation}
+we define this $h/m=\lambda_c$.
+	
+    </body>
+</html>
+
