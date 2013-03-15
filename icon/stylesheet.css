@@ -1,0 +1,16 @@
+.one, .two, .three, .four{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+.white_one, .white_two, .white_three{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 2px;
+}
+
