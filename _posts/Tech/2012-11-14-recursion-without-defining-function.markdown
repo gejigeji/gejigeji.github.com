@@ -6,7 +6,7 @@ tags : [python, algorithm]
 {% include JB/setup %}
 
 ##code:
-{% highlight c %}
+
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
@@ -23,11 +23,12 @@ tags : [python, algorithm]
     exec(B)
 
 
-
-def foo
-   puts 'foo'
-end
-
+{% highlight java %}
+public class HelloWorld {
+    public static void main(String args[]) {
+      System.out.println("Hello World!");
+    }
+}
 {% endhighlight %}
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
