@@ -2,7 +2,7 @@
 layout: post
 category : tips
 tags : [linux]
-tagline: Blog
+tagline: 副标可以设置 之前作者忘记修改了
 ---
 {%include JB/setup %}
 
