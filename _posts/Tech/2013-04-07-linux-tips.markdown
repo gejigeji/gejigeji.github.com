@@ -2,7 +2,7 @@
 layout: post
 category : tips
 tags : [linux]
-tagline: {post.date}
+tagline: Blog
 ---
 {%include JB/setup %}
 
