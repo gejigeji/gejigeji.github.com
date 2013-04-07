@@ -22,11 +22,11 @@ tags : [python, algorithm]
     exec(B)
 {% endhighlight %}
 
-{% highlight ruby %}
+```
 def foo
     puts 'foo'
 end
-{% endhighlight %}
+```
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
 
