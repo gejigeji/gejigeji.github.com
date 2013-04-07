@@ -5,7 +5,7 @@ tags : [python, algorithm]
 ---
 {% include JB/setup %}
 ##code:
-
+{% highlight python %}
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
@@ -20,6 +20,7 @@ tags : [python, algorithm]
     '''
     B = "A = r\'''" + A + "\'''\n" + A
     exec(B)
+{% endhighlight %}
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
 

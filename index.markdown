@@ -15,8 +15,13 @@ tagline: World is big. Life is short.
   {% endfor %}
 </ul>
 
-[My sister Ying](https://farm9.staticflickr.com/8117/8626984877_58151bb6bc_b.jpg){: .pull-right
+## Elsewhere
+ ![My sister Ying](https://farm9.staticflickr.com/8117/8626984877_58151bb6bc_b.jpg){: .pull-right
 
  * [weibo](http://weibo.com/twinsgejigeji)
- *  [github](https://github.com/gejigeji)
+ * [github](https://github.com/gejigeji)
+ {: .span3}
 
+ * [renren](http:www.renren.com/twinsgejigeji)
+ *  [diandian](http://www.diandian.com/dianlog/twinsgejigeji)
+ {: .span3}
