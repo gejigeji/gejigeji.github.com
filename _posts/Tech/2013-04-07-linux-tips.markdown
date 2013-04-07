@@ -2,7 +2,7 @@
 layout: post
 category : tips
 tags : [linux]
-tagline: Unsupport Chinese
+tagline: 副标题可以设置 作者之前忘记修改了
 ---
 {%include JB/setup %}
 
