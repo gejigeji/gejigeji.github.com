@@ -4,9 +4,9 @@ category : python
 tags : [python, algorithm]
 ---
 {% include JB/setup %}
-{% highlight py linenos %}
-##code:
 
+##code:
+{% highlight c %}
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
@@ -24,9 +24,9 @@ tags : [python, algorithm]
 
 
 
-    def foo
-        puts 'foo'
-    end
+def foo
+   puts 'foo'
+end
 
 {% endhighlight %}
 
