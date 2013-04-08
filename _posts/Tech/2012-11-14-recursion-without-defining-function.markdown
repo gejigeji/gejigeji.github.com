@@ -4,7 +4,6 @@ category : python
 tags : [python, algorithm]
 ---
 {% include JB/setup %}
-{% include JB/mathjs %}
 
 ##code:
 <pre class="prettyprint linenums">
@@ -27,4 +26,8 @@ tags : [python, algorithm]
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
 
+<div>
+<span>
 $$\mathrm{H'} v_1^0 = \mathrm{o}$$
+</span>
+</div>
