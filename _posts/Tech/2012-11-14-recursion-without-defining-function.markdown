@@ -4,7 +4,7 @@ category : python
 tags : [python, algorithm]
 ---
 {% include JB/setup %}
-{% include mathjs %}
+{% include JB/mathjs %}
 
 ##code:
 <pre class="prettyprint linenums">
