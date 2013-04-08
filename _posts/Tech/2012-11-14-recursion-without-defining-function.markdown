@@ -30,3 +30,4 @@ tags : [python, algorithm]
 $$\mathrm{H'} v_1^0 = \mathrm{o}$$
 </code>
 </pre>
+$$\mathrm{H'} v_1^0 = \mathrm{o}$$
