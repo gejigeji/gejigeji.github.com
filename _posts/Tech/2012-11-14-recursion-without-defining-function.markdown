@@ -21,11 +21,10 @@ tags : [python, algorithm]
     '''
     B = "A = r\'''" + A + "\'''\n" + A
     exec(B)
-$$\mathrm{H'} v_1^0 = \mathrm{o}$$
 </pre>
 
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
-
+    $$\mathrm{H'} v_1^0 = \mathrm{o}$$
 [](raw: $$\mathrm{H'} v_1^0 = \mathrm{o}$$)
 [](raw: \mathrm{H'} v_1^0 = \mathrm{o})
