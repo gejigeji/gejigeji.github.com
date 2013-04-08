@@ -26,5 +26,6 @@ tags : [python, algorithm]
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
 
-
+<div class="Mathjax_Display">
 $$\mathrm{H'} v_1^0 = \mathrm{o}$$
+</div>
