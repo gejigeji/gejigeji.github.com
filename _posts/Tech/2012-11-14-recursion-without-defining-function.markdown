@@ -21,6 +21,7 @@ tags : [python, algorithm]
     '''
     B = "A = r\'''" + A + "\'''\n" + A
     exec(B)
+$$\mathrm{H'} v_1^0 = \mathrm{o}$$
 </pre>
 
 
