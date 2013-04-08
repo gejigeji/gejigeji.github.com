@@ -6,7 +6,7 @@ tags : [python, algorithm]
 {% include JB/setup %}
 
 ##code:
-<pre>
+<pre class="prettyprint linenums">
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
