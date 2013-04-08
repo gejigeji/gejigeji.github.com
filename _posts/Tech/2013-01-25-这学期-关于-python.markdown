@@ -11,7 +11,7 @@ tags : [python, karrigell, web.py]
 
 ##python科学计算
 
-* 学习了一些，现在有忘记得差不多了
+学习了一些，现在有忘记得差不多了
 
 ##karrigell
 
@@ -25,4 +25,4 @@ tags : [python, karrigell, web.py]
 
 ##不足 
 
-* 对数据库的操作还不会
+对数据库的操作还不会

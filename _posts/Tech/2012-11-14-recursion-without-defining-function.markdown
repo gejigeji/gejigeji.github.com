@@ -6,7 +6,7 @@ tags : [python, algorithm]
 {% include JB/setup %}
 
 ##code:
-
+<pre class="prettyprint linenums">
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
@@ -21,7 +21,16 @@ tags : [python, algorithm]
     '''
     B = "A = r\'''" + A + "\'''\n" + A
     exec(B)
+</pre>
 
+
+<pre>
+public class HelloWorld {
+    public static void main(String args[]) {
+      System.out.println("Hello World!");
+    }
+}
+</>
 
 {% highlight java %}
 public class HelloWorld {
