@@ -24,14 +24,6 @@ tags : [python, algorithm]
 </pre>
 
 
-<pre>
-public class HelloWorld {
-    public static void main(String args[]) {
-      System.out.println("Hello World!");
-    }
-}
-</pre>
-
 {% highlight java %}
 public class HelloWorld {
     public static void main(String args[]) {
