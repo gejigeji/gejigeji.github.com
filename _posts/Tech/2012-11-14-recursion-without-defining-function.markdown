@@ -27,6 +27,4 @@ tags : [python, algorithm]
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
 
 
-$$ 
-e^x = \sum\_{n=0}^\infty \frac{x^n}{n!} = \lim\_{n\rightarrow\infty} (1+x/n)^n 
-$$
+$$\mathrm{H'} v_1^0 = \mathrm{o}$$
