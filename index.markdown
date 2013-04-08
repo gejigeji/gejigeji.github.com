@@ -1,7 +1,7 @@
 ---
 layout: page
 title: gejigeji
-tagline: World is big. Life is short.
+tagline: World is big. Life is short. But...
 ---
 {% include JB/setup %}
 
