@@ -2,23 +2,23 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "README.markdown"]
-# markdown: rdiscount
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
+paginate: 5
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : gejigeji
-tagline: BLOG
+title : Gejigeji blog
+tagline: Gejigeji blog
 author :
-  name : gejigeji
+  name : Gejigeji
   email : twins.gejigeji@gmail.com
   github : gejigeji
-  twitter : username
-  feedburner : feedname
+  twitter : None
+  feedburner : None
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -28,7 +28,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://gejigeji.github.com
+production_url : http://heroin.so
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -83,11 +83,11 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : gejigeji
     livefyre :
-      site_id : 123
+      site_id : None
     intensedebate :
-      account : 123abc
+      account : None
     facebook :
       appid : 123
       num_posts: 5
@@ -101,11 +101,11 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-31884821-1'
     getclicky :
       site_id : 
     mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        token : '_trackPageview'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -125,3 +125,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+  
