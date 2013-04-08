@@ -30,7 +30,7 @@ public class HelloWorld {
       System.out.println("Hello World!");
     }
 }
-</>
+</pre>
 
 {% highlight java %}
 public class HelloWorld {
