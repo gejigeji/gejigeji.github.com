@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "README.markdown"]
 # markdown: rdiscount
 auto: true
-pygments: true
+
 
 
 # Themes are encouraged to use these universal variables 
@@ -126,3 +126,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+pygments: true
