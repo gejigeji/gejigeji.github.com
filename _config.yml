@@ -1,33 +1,17 @@
-# This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# Site-specific config
+exclude:
+- README.markdown
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "README.markdown"]
-# markdown: rdiscount
-auto: true
-
-
-
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
-title : gejigeji
-tagline: BLOG
+# Jekyll Bootstrap
+title : Zopatista
+tagline: Invisible Framework Ninja
 author :
-  name : gejigeji
+  name : Xu Jingdong
   email : twins.gejigeji@gmail.com
   github : gejigeji
-  twitter : username
-  feedburner : feedname
+  twitter : gejigeji
 
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
 production_url : http://gejigeji.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
@@ -83,7 +67,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : gejigeji
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +85,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-30217891-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -113,7 +97,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : custom
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
@@ -126,4 +110,49 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
+# GitHub pages defaults
 pygments: true
+
+# Locally, we run this in dev mode of course
+auto: true
+
+# Jekyll defaults (explicit is better than implicit)
+safe: false # GitHub sets this to true but this is how JB detects a local test
+server: false
+server_port: 4000
+baseurl: /
+url: http://localhost:4000
+
+source: .
+destination: ./_site
+plugins: ./_plugins
+
+future: true
+lsi: false
+markdown: kramdown
+
+maruku:
+  use_tex: false
+  use_divs: false
+  png_engine: blahtex
+  png_dir: images/latex
+  png_url: /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
