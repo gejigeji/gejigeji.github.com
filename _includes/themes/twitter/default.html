@@ -19,6 +19,10 @@
     <script type="text/javascript" src="{{ ASSET_PATH }}/google-code-prettify/prettify.js"></script>{% if page.codes %}{% for code in page.codes %} 
     <script type="text/javascript" src="{{ ASSET_PATH }}/google-code-prettify/lang-{{ code }}.js"></script>{% endfor %}{% endif %}
     <script type="text/javascript" src="{{ ASSET_PATH }}/js/application.js"></script>
+    <script type="text/javascript"> $(document).ready(function(){
+$('pre').addClass('prettyprint linenums') 
+})
+</script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="100">
