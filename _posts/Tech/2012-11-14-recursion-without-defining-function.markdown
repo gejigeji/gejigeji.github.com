@@ -26,7 +26,6 @@ code : ml
 
 
 <pre class="prettyprint linenums">
-
 clear all
 
 M = 8;
@@ -48,7 +47,6 @@ hold on
 grid on
 % polar(theta,(abs(sum2))./8)
 %这是一个测试
-
 </pre>
 
 
