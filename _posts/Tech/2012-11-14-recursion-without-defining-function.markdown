@@ -2,7 +2,6 @@
 layout: post
 category : python
 tags : [python, algorithm]
-code : ml
 ---
 {% include JB/setup %}
 
