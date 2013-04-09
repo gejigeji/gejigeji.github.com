@@ -2,6 +2,7 @@
 layout: post
 category : python
 tags : [python, algorithm]
+code : matlab
 ---
 {% include JB/setup %}
 
@@ -23,5 +24,31 @@ tags : [python, algorithm]
     exec(B)
 </pre>
 
+
+<pre class="prettyprint python linenums">
+```
+clear all
+
+M = 8;
+rate = 0.5;
+% w=[1 exp(j*2*pi)]
+theta = [-pi./2:0.01:pi./2];
+sum1 = zeros(1,length(theta));
+sum2 = zeros(1,length(theta));
+for p = 1:length(theta)
+    for q = 1:M
+        sum1(p) = sum1(p) +  ((exp(-j*(q-1)*2*rate*pi*sin(20./180*pi)))+(exp(-j*(q-1)*2*rate*pi*sin(5./180*pi))))*(exp(-j*(q-1)*2*rate*pi*sin(theta(p))));
+%         sum2(p) = sum2(p) + (1-i)*(exp(-j*(q-1)*2*rate*pi*sin(20./180*pi)))*(exp(-j*(q-1)*2*rate*pi*sin(theta(p))));
+    end
+end
+% plot(theta(2:length(theta)),(abs(sum(2:length(theta)))./max(abs(sum(2:length(theta))))))
+% polar(theta,(abs(sum1))./8)
+polar(theta,(abs(sum1))./8)
+hold on
+grid on
+% polar(theta,(abs(sum2))./8)
+%这是一个测试
+```
+</pre>
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
