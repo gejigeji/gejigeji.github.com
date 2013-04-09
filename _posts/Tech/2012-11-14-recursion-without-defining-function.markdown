@@ -3,7 +3,6 @@ layout: post
 category : python
 tags : [python, algorithm]
 ---
-{% include JB/setup %}
 
 ##code:
 <pre>
