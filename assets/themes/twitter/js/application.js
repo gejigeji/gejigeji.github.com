@@ -18,6 +18,9 @@
                 $nav.removeClass('subnav-fixed');
             }
         });
-
+	$win.load(function () {
+		$("pre").addClass("prettyprint linenums");
+		prettyPrint();
+	});
     });
 }(window.jQuery);

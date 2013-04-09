@@ -7,7 +7,7 @@ code : ml
 {% include JB/setup %}
 
 ##code:
-<pre class="prettyprint linenums">
+<pre>
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
