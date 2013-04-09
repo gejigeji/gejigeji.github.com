@@ -49,6 +49,19 @@ grid on
 %这是一个测试
 </pre>
 
-
+<pre class="prettyprint linenums">
+&lt;plugin&gt;
+    &lt;groupId&gt;so.heroin.maven.plugins&lt;/groupId&gt;
+    &lt;artifactId&gt;deploy-maven-plugin&lt;/artifactId&gt;
+    &lt;version&gt;1.0.0.0&lt;/version&gt;
+    &lt;configuration&gt;
+        &lt;hostname&gt;192.168.1.12&lt;/hostname&gt;
+        &lt;username&gt;root&lt;/username&gt;
+        &lt;password&gt;root&lt;/password&gt;
+        &lt;port&gt;22&lt;/port&gt;
+        &lt;remotePath&gt;/root/code&lt;/remotePath&gt;
+    &lt;/configuration&gt;
+&lt;/plugin&gt;
+</pre>
 
 [original article](http://scturtle.is-programmer.com/posts/34225.html)
