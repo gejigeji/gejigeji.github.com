@@ -1,7 +1,7 @@
 !function ($) {
     $(function(){
 
-        window.prettyPrint && prettyPrint();
+        //window.prettyPrint && prettyPrint();
 
         var $win = $(window);
         var $nav = $('.subnav');
