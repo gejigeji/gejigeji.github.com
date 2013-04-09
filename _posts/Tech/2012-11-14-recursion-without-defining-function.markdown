@@ -25,7 +25,7 @@ code : ml
 </pre>
 
 
-<pre class="prettyprint ml linenums">
+<pre class="prettyprint linenums">
 
 clear all
 
