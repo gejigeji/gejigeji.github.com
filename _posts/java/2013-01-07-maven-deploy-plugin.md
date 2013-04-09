@@ -25,7 +25,7 @@ description: maven上传插件
 
 ## 配置方式
 
-<pre class="prettyprint linenums">
+<pre>
 &lt;plugin&gt;
     &lt;groupId&gt;so.heroin.maven.plugins&lt;/groupId&gt;
     &lt;artifactId&gt;deploy-maven-plugin&lt;/artifactId&gt;
