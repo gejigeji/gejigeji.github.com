@@ -2,12 +2,11 @@
 layout: post
 category : python
 tags : [python, algorithm]
-code : C
 ---
 {% include JB/setup %}
 
 ##code:
-<pre class="prettyprint python linenums">
+<pre class="prettyprint linenums">
     A = r'''
     B = "A = r\'''" + A + "\'''\n" + A
     n = 10
@@ -25,7 +24,7 @@ code : C
 </pre>
 
 
-<pre class="prettyprint python linenums">
+<pre class="prettyprint linenums">
 
 clear all
 
