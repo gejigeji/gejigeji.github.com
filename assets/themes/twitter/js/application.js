@@ -1,7 +1,7 @@
 !function ($) {
     $(function(){
 
-        window.prettyPrint && prettyPrint();
+        //window.prettyPrint && prettyPrint();
 
         var $win = $(window);
         var $nav = $('.subnav');
@@ -18,6 +18,10 @@
                 $nav.removeClass('subnav-fixed');
             }
         });
+	$win.load(function(){
+		$("pre").addClass("prettyprint linenums");
+		prettyPrint();
+});
 
     });
 }(window.jQuery);
