@@ -4,6 +4,7 @@ title: debian 系统 安装
 category : debian
 tags : [debian, install]
 keywords: debian, system, install
+description: 安装debian系统的简单步骤
 ---
 
 ##usb安装盘
