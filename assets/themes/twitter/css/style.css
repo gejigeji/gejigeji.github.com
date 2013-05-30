@@ -15,7 +15,7 @@ html, body {
 
 /* The white background content wrapper */
 .content {
-  background-color: #28773d;
+  background-color: #fff;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
@@ -28,7 +28,9 @@ html, body {
 
 /* Page header tweaks */
 .page-header {
-  background-color: #f5f5f5;
+ /* background-color: #f5f5f5; gejigeji 20130530*/
+  
+  background-color: #28773d;
   padding: 20px 20px 10px;
   margin: -20px -20px 20px;
 }
