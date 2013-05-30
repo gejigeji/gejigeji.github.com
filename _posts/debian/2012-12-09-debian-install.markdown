@@ -43,6 +43,7 @@ description: 安装debian系统的简单步骤
 再根据提示添加sudoers
 
 ##系统字体
+
 	dpkg-reconfigure locales
 
 ##输入法
