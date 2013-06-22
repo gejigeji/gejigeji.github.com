@@ -1,12 +1,12 @@
 ---
 layout: post
-title: sweet
+title: sister
 category : life
-tags : [sweet]
-keywords: sweet
-description: 我要守护的人
+tags : [sister]
+keywords: sister
+description: 小妹
 ---
 
-##我要守护的人
-![](/assets/blog/love/love.jpg)
+##小妹
+![](/assets/blog/dearsister/dearsister.jpg)
 
