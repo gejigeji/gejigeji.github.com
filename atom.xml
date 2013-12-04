@@ -5,14 +5,14 @@ permalink: blog/atom.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Conrad Irwin</title>
- <link href="http://cirw.in/blog/atom.xml" rel="self"/>
- <link href="http://cirw.in/"/>
+ <title>GEJIGEJI</title>
+ <link href="http://cirw.in/blog/atom.xmal" rel="self"/>
+ <link href="http://gejigeji.sinaapp.com"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://cirw.in/blog/</id>
+ <id>http://gejigeji.sinaapp.com/</id>
  <author>
-   <name>Conrad Irwin</name>
-   <email>conrad.irwin@gmail.com</email>
+   <name>gejigeji</name>
+   <email>twins.gejigeji@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
