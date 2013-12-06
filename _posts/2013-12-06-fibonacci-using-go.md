@@ -1,9 +1,9 @@
 ---
-title: fibonacci using go
-permalink: blog/fibonacci-using-go.html
+title: git aliae to make you more awesome (part 1)
+permalink: blog/git-aliae-1.html
 layout: post
-fuzzydate: December 2013
-credit: gejigeji
+fuzzydate: May 2012
+credit: Martin Kleppmann, Ryan Fitzgerald and John Mair
 ---
 
 I am learning golang this time.
