@@ -2,7 +2,7 @@
 title: fibonacci using go
 permalink: blog/fibonacci-using-go.html
 layout: post
-fuzzydate: Dec 2013
+fuzzydate: December 2013
 credit:gejigeji
 ---
 
