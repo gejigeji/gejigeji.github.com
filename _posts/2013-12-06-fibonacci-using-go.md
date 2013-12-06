@@ -1,16 +1,16 @@
 ---
-title: git aliae to make you more awesome (part 1)
-permalink: blog/git-aliae-1.html
+title: fibonacci using go
+permalink: blog/fibonacci-using-go.html
 layout: post
-fuzzydate: May 2012
-credit: Martin Kleppmann, Ryan Fitzgerald and John Mair
+fuzzydate: December 2013
+credit: gejigeji
 ---
 
 I am learning golang this time.
 The channel in go is very important and useful.
 Here is a solution of fibonacci using go.
 
-{% highlight go %}
+{% highlight python %}
 package main
 
 import (
