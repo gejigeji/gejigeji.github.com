@@ -12,7 +12,7 @@ Here is a solution of fibonacci using go.
 
 `range` can read from `chan`
 
-{% highlight golang %}
+{% highlight ruby %}
 package main
 
 import (
