@@ -10,7 +10,9 @@ I am learning golang this time.
 The channel in go is very important and useful.
 Here is a solution of fibonacci using go.
 
-{% highlight python %}
+`range` can read from `chan`
+
+{% highlight golang %}
 package main
 
 import (
