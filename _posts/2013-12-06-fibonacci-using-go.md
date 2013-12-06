@@ -3,7 +3,7 @@ title: fibonacci using go
 permalink: blog/fibonacci-using-go.html
 layout: post
 fuzzydate: December 2013
-credit:gejigeji
+credit: gejigeji
 ---
 
 I am learning golang this time.
