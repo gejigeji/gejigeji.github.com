@@ -1,5 +1,5 @@
 ---
-title: fibonacci using go
+title: Fibonacci Using Go
 permalink: blog/fibonacci-using-go.html
 layout: post
 fuzzydate: December 2013
