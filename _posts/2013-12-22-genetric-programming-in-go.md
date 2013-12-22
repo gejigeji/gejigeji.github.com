@@ -1,5 +1,5 @@
 ---
-title: "Genetic" Programming in Go
+title: Genetic Programming in Go
 permalink: blog/genetic-programming-in-go.html
 layout: post
 fuzzydate: December 2013
