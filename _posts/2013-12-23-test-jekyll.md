@@ -1,6 +1,6 @@
 ---
-title: Genetic Programming in Go
-permalink: blog/genetic-programming-in-go.html
+title: test jekyll
+permalink: blog/test-jekyll.html
 layout: post
 fuzzydate: December 2013
 credit: gejigeji
