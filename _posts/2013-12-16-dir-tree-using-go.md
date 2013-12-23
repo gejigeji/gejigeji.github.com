@@ -1,5 +1,5 @@
 ---
-title: Dir Tree Using Golang
+title: Dir Tree Using Go
 permalink: blog/dir-tree-using-go.html
 layout: post
 fuzzydate: December 2013
