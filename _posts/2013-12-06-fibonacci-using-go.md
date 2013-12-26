@@ -144,4 +144,13 @@ func MergeBU(c types.Sortable){
 		}
 	}
 	sort(c)
+}
+
+func min(x, y int) int {
+	if x<y {
+		return x
+	} else {
+		return y
+	}
+}
 {% endhighlight %}
