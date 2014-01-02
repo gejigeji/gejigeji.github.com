@@ -8,10 +8,10 @@ credit: gejigeji
 
 *	Comma-ok 断言
 
-	Go里可以直接判断是否是该类型/接口的对象： `value, ok = element.(T)` ，这里value就是变量的值，ok
+	Go里可以直接判断是否是该类型的对象： `value, ok = element.(T)` ，这里value就是变量的值，ok
 是一个bool类型， element是interface的变量, T是断言的类型/接口。
 
-	如果element里面确实存储了T类型/接口的对象，那么ok返回true，否则返回false。
+	如果element里面确实存储了T类型的对象，那么ok返回true，否则返回false。
 
 *	switch
 
