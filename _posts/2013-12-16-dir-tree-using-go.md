@@ -67,3 +67,19 @@ func Tree(dirname string, curHier int, hierMap map[int]bool) error {
 	return nil
 }
 {% endhighlight %}
+
+A simple way is :
+
+{% highlight ruby %}
+package main
+
+import (
+	"net/http"
+)
+
+func main() {
+	h := http.FileServer(http.Dir("."))
+	http.ListenAndServe(":3000", h)
+}
+
+{% endhighlight %}
