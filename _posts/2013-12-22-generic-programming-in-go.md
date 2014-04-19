@@ -1,12 +1,12 @@
 ---
 title: Genetic Programming in Go
-permalink: blog/genetic-programming-in-go.html
+permalink: blog/generic-programming-in-go.html
 layout: post
 fuzzydate: December 2013
 credit: gejigeji
 ---
 
-We can use `interface` to do "genetic" programming in go.
+We can use `interface` to do "generic" programming in go.
 
 {% highlight ruby %}
 package main
