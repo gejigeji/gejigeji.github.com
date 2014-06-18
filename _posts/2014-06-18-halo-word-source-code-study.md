@@ -1,53 +1,26 @@
-'---
-title: Type of Interface in Go
-permalink: blog/type-of-interface-in-go.html
+---
+title: halo word 源码学习
+permalink: blog/halo-word-source-code-study.html
 layout: post
-fuzzydate: December 2013
+fuzzydate: June 2014
 credit: gejigeji
----'
+---
 
-*	Comma-ok 断言
+####阅读了chrome扩展[halo word](https://chrome.google.com/webstore/detail/halo-word-dictionary/bhkcehpnnlgncpnefpanachijmhikocj?utm_source=chrome-ntp-icon)的部分源码，以下为学习笔记
 
-	Go里可以直接判断是否是该类型的对象： `value, ok = element.(T)` ，这里value就是变量的值，ok
-是一个bool类型， element是interface的变量, T是断言的类型/接口。
-
-	如果element里面确实存储了T类型的对象，那么ok返回true，否则返回false。
-
-*	switch
-
-	同时，下面这段代码还用到了特有的element.(type)语法，这个语法只能在switch中使用。
-
-{% highlight ruby %}
-package types
-
-import "fmt"
-
-type Less interface {
-	Less(other interface{}) bool
-}
-
-type Numeric interface {
-	Numeric() float64
-}
-
-type Integer int
-func (i Integer)Numeric() float64{
-	return float64(int(i))
-}
-
-func (i Integer)Less(other interface{}) bool{
-	switch o := other.(type) {
-	case int:
-		return int(i)<o
-	case float64:
-		return i.Numeric()<o
-	default:
-		if d, ok :=o.(Numeric); ok{
-			return i.Numeric()<d.Numeric()
-		} else {
-			var message = fmt.Sprintf("%v can't compare with %v", i, o)
-			panic(message)
-		}
-	}
-}
-{% endhighlight %}
+*  **manifest.json** ：
+  * 字段`app`用来指定应用类型和main.html文件，与之互斥的应用类型字段是`browser_action`类型，会在地址栏右侧显现小图标
+  * 字段`background`会自动载入,一直运行，保持整个应用逻辑
+  * 字段`content_script`可以影响别的页面，在匹配的页面加载时可以运行`content_script`中指定的js文件(`lookup.js`)
+  * 字段`omnibox`指定关键词，在地址栏中输入指定关键词，可以快速触发该应用，具体的操作在`background.html`中的`omnibox.js`定义
+*  **background.html** :
+    * `context_menu.js`在网页右击菜单选项中添加halo word查询选项
+    * `omnibox.js`omnibix具体处理逻辑
+    * `db.js`数据库操作
+    * `proxy.js`单词操作message监听(lookup.js有发送）
+* **main.html** :
+    * app主体框架
+    * `app.js`充实各个块，查找，添加等功能
+    * `desktop.js`在`node-webkit`中运行时的附加处理
+* **content_script** :
+    * `lookup.js`监听click和mouseup操作，单词框的显现和消失，完成页面选词翻译功能
