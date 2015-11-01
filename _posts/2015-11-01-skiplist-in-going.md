@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-{% highlight ruby %}
+{% highlight go %}
 package skiplist
 
 import (
@@ -35,9 +35,7 @@ type Skiplist struct {
 	length int
 	level  int
 }
-{% endhighlight %}
 
-{% highlight ruby %}
 func CreateNode(level int, score float64, obj string) *SkiplistNode {
 	var zl = make([]SkiplistLevel, level)
 	var zn = new(SkiplistNode)
