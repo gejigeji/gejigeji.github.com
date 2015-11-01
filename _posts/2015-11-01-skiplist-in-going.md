@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-{% highlight ruby %}
+{% highlight c++ %}
 package skiplist
 
 import (
@@ -218,4 +218,5 @@ func (zl *Skiplist) PrintList() {
 	}
 	fmt.Println("")
 }
+
 {% endhighlight %}
