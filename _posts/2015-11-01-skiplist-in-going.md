@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-{% highlight c++ %}
+{% highlight ruby %}
 package skiplist
 
 import (
@@ -79,7 +79,6 @@ func (zsl *Skiplist) Insert(score float64, obj string) *SkiplistNode {
 		}
 		update[i] = x
 	}
-
 	var level = randomLevel()
 	if level > zsl.level {
 		for i := zsl.level; i < level; i++ {
@@ -97,11 +96,9 @@ func (zsl *Skiplist) Insert(score float64, obj string) *SkiplistNode {
 		x.level[i].span = update[i].level[i].span - rank[0] + rank[i]
 		update[i].level[i].span = (rank[0] - rank[i])
 	}
-
 	for i := level; i < zsl.level; i++ {
 		update[i].level[i].span++
 	}
-
 	if update[0] == zsl.header {
 		x.backward = nil
 	} else {
@@ -113,7 +110,6 @@ func (zsl *Skiplist) Insert(score float64, obj string) *SkiplistNode {
 		zsl.tail = x
 	}
 	zsl.length++
-
 	return x
 }
 
@@ -124,7 +120,6 @@ func (zsl *Skiplist) Search(score float64) string {
 			x = x.level[i].forward
 		}
 	}
-
 	x = x.level[0].forward
 	if x != nil && score == x.score {
 		return x.obj
@@ -149,7 +144,6 @@ func (zsl *Skiplist) Delete(score float64, obj string) int {
 		}
 		update[i] = x
 	}
-
 	x = x.level[0].forward
 	if x != nil && score == x.score {
 		zsl.deleteNode(x, update)
@@ -167,19 +161,15 @@ func (zsl *Skiplist) deleteNode(x *SkiplistNode, update [](*SkiplistNode)) int {
 		}
 		update[i].level[i].span--
 	}
-
 	if x.level[0].forward != nil {
 		x.level[0].forward.backward = x.backward
 	} else {
 		zsl.tail = x.backward
 	}
-
 	for zsl.level > 0 && zsl.header.level[zsl.level-1].forward == nil {
 		zsl.level--
 	}
-
 	zsl.length--
-
 	return 0
 }
 

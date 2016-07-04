@@ -75,15 +75,12 @@ func main(){
 	intarr := IntArr{2,1,3,-9,0}
 	BubbleSortable(intarr)
 	fmt.Printf("sorted int arr is: %v\n", intarr)
-
 	strarr := StrArr{"def","abc","hij","klm"}
 	BubbleSortable(strarr)
 	fmt.Printf("sorted str arr is: %v\n", strarr)
-
 	floarr := FloArr{3.5,7.2,2.7,34.9,456.234,0.2}
 	BubbleSortable(floarr)
 	fmt.Printf("sorted str arr is: %v\n", floarr)
-
 }
 
 {% endhighlight %}
@@ -123,7 +120,7 @@ func (i Integer)Less(other interface{}) bool{
 	}
 }
 
-type Float float64 
+type Float float64
 func (f Float)Numeric() float64{
 	return float64(f)
 }
