@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-```golang
+{% highlight ruby %}
 package skiplist
 
 import (
@@ -218,4 +218,4 @@ func (zl *Skiplist) PrintList() {
 	}
 	fmt.Println("")
 }
-```
+{% endhighlight %}
