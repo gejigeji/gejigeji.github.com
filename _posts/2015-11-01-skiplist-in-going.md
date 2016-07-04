@@ -77,7 +77,6 @@ func (zsl *Skiplist) Insert(score float64, obj string) *SkiplistNode {
 			rank[i] += x.level[i].span + 1
 			x = x.level[i].forward
 		}
-
 		update[i] = x
 	}
 
