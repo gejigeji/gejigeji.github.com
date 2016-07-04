@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-{% highlight ruby %}
+{% highlight golang %}
 package skiplist
 
 import (
