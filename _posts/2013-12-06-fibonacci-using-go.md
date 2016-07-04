@@ -73,7 +73,6 @@ func Merge(c types.Sortable) {
 			}
 		}
 	}
-
 	var sort func(types.Sortable, int, int, chan bool)
 	var finish = make(chan bool)
 	defer close(finish)
