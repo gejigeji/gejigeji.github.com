@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-{% highlight golang %}
+{% highlight javascript %}
 package skiplist
 
 import (
