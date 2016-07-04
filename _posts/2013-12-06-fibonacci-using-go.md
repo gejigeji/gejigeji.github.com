@@ -73,7 +73,7 @@ func Merge(c types.Sortable) {
 			}
 		}
 	}
-	
+
 	var sort func(types.Sortable, int, int, chan bool)
 	var finish = make(chan bool)
 	defer close(finish)
@@ -93,7 +93,6 @@ func Merge(c types.Sortable) {
 		<-high
 		merge(c, lo, mid, hi)
 	}
-
 	go sort(c, 0, c.Len()-1, finish)
 	<-finish
 }
@@ -110,7 +109,7 @@ func MergeBU(c types.Sortable){
 			aux[k] = c[k]
 		}
 		for k := lo; k<=hi; k++ {
-			if i>mid { 
+			if i>mid {
 				c[k] = aux[j]
 				j++
 			} else if j> hi {

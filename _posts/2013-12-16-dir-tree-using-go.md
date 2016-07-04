@@ -35,7 +35,6 @@ func Tree(dirname string, curHier int, hierMap map[int]bool) error {
 	if err != nil{
 		return err
 	}
-	
 	fileNum := len(fileInfos)
 	for  i, fileInfo := range fileInfos {
 		for j := 1; j < curHier; j++ {
@@ -46,7 +45,6 @@ func Tree(dirname string, curHier int, hierMap map[int]bool) error {
 			}
 			fmt.Print(strings.Repeat(" ", 3))
 		}
-
 		tmpMap := map[int]bool{}
 		for k, v := range hierMap{
 			tmpMap[k] = v
