@@ -73,7 +73,8 @@ func (zsl *Skiplist) Insert(score float64, obj string) *SkiplistNode {
 		} else {
 			rank[i] = rank[i+1]
 		}
-		for x.level[i].forward != nil && (x.level[i].forward.score < score || (x.level[i].forward.score == score && x.level[i].forward.obj < obj)) {
+		for x.level[i].forward != nil && (x.level[i].forward.score < score \
+			|| (x.level[i].forward.score == score && x.level[i].forward.obj < obj)) {
 			rank[i] += x.level[i].span + 1
 			x = x.level[i].forward
 		}
@@ -137,7 +138,8 @@ func (zsl *Skiplist) Delete(score float64, obj string) int {
 		} else {
 			rank[i] = rank[i+1]
 		}
-		for x.level[i].forward != nil && (x.level[i].forward.score < score || (x.level[i].forward.score == score && x.level[i].forward.obj < obj)) {
+		for x.level[i].forward != nil && (x.level[i].forward.score < score \
+			|| (x.level[i].forward.score == score && x.level[i].forward.obj < obj)) {
 			rank[i] += x.level[i].span + 1
 			x = x.level[i].forward
 		}
