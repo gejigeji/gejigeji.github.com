@@ -1,5 +1,5 @@
 ---
-title: 小姐妹
+title: litter sisters
 permalink: blog/little-sisters.html
 layout: post
 fuzzydate: August 2014

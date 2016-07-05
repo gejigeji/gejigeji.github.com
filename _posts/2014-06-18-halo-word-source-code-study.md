@@ -1,6 +1,6 @@
 ---
-title: halo word 源码学习
-permalink: blog/halo-word-source-code-study.html
+title: halo word source code learn
+permalink: blog/halo-word-source-code-learn.html
 layout: post
 fuzzydate: June 2014
 credit: gejigeji
