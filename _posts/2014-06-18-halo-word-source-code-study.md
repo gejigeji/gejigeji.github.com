@@ -6,7 +6,7 @@ fuzzydate: June 2014
 credit: gejigeji
 ---
 
-####阅读了chrome扩展[halo word](https://chrome.google.com/webstore/detail/halo-word-dictionary/bhkcehpnnlgncpnefpanachijmhikocj?utm_source=chrome-ntp-icon)的部分源码，以下为学习笔记
+### 阅读了chrome扩展[halo word](https://chrome.google.com/webstore/detail/halo-word-dictionary/bhkcehpnnlgncpnefpanachijmhikocj?utm_source=chrome-ntp-icon)的部分源码，以下为学习笔记
 
 *  **manifest.json** ：
   * 字段`app`用来指定应用类型和main.html文件，与之互斥的应用类型字段是`browser_action`类型，会在地址栏右侧显现小图标
