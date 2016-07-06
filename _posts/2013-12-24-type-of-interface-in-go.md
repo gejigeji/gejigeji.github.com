@@ -17,7 +17,7 @@ credit: gejigeji
 
 	同时，下面这段代码还用到了特有的element.(type)语法，这个语法只能在switch中使用。
 
-{% highlight ruby %}
+{% highlight golang %}
 package types
 
 import "fmt"
