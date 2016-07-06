@@ -6,7 +6,7 @@ fuzzydate: January 2015
 credit: gejigeji
 ---
 
-```golang
+```c++
 package skiplist
 
 import (
