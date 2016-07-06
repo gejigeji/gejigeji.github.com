@@ -9,7 +9,7 @@
 title: Go ahead.
 email: twins.gejigeji@gmail.com
 description: > # Go through, go ahead.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gejigeji.github.io" # the base hostname & protocol for your site
 twitter_username: twins_gejigeji
 github_username:  gejigeji
